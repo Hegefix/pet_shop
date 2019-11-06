@@ -12,6 +12,13 @@ module.exports = {
     "plugin:prettier/recommended"
   ],
   rules: {
+    "prettier/prettier": [
+      "error", {
+        "trailingComma": "none", 
+        "singleQuote": false, 
+        "semi": false
+      }
+    ],
     "react/jsx-filename-extension": "off"
   },
   globals: {
