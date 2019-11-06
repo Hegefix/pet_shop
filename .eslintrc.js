@@ -4,11 +4,12 @@ module.exports = {
     browser: true,
     es6: true
   },
-  plugins: ["react"],
+  plugins: ["react", "prettier"],
   extends: [
     "airbnb",
     "eslint:recommended",
-    "plugin:react/recommended"
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
   ],
   rules: {
     "react/jsx-filename-extension": "off"
