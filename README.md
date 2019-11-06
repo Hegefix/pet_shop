@@ -1,6 +1,6 @@
-### Pet Project
+# Pet Project
 
-# How to start
+## How to start
 
 1. `cd pet_shop` - got to root folder
 2. `yarn` - install packages via yarn 
