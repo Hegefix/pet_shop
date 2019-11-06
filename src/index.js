@@ -1,7 +1,8 @@
 import React from "react"
 import ReactDOM from "react-dom"
 import "./index.css"
+import Landing from "./pages/landing"
 
-const App = () => <div>Hello Universe</div>
+const App = () => <Landing />
 
 ReactDOM.render(<App />, document.getElementById("app"))

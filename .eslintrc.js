@@ -19,7 +19,8 @@ module.exports = {
         "semi": false
       }
     ],
-    "react/jsx-filename-extension": "off"
+    "react/jsx-filename-extension": "off",
+    "no-console": "off"
   },
   globals: {
     Atomics: "readonly",
